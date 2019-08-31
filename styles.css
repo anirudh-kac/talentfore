@@ -1,6 +1,8 @@
 /* #03fc90
 #0ec2a1 */
-
+.red{
+  color:red;
+}
 .details-head{
   background-color: #0ec2a1 ;
   color:white;

@@ -1,6 +1,11 @@
 var url,name,organisation,position,objective,email,mobile,address,linkedin;
 var workOrganisation,workPosition,workStartdate,workEnddate,workAbout1,workAbout2;
+
+//hide resume
 $("#resume").css("visibility", "hidden");
+
+// store corresponding values in above declared variables when a save button is clicked
+
   $(".save-position").click(function(){
     position=$(".position-box").val();
     $(".save-position").attr("class","btn btn-success");
@@ -84,11 +89,15 @@ $("#resume").css("visibility", "hidden");
     workAbout2=$(".about-work-2-box").val();
   });
 
-
+// when generate button is clicked
 $(".generate-button").click(function(){
+
+  //hide form and display resume
   $("#form").css("visibility", "hidden");
   $("#form").css("display", "none");
   $("#resume").css("visibility", "visible");
+
+  //set values
   $(".name").html(name);
   $(".position").html(position);
   $(".objective").html(objective);

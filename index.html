@@ -10,7 +10,7 @@
 
 <body>
 <h1 class= "jumbotron">TalentFore Resume Generator</h1>
-<div class=container>
+<div class="container" id="form">
 <div class="row">
   <div class="col-6">
     <h3>Personal Details</h3>
@@ -76,7 +76,7 @@
           <p>
             Enter your mobile number :
             </p>
-            <input type="number" class="mobile-box" />
+            <input type="string" class="mobile-box" />
             <button class ="save-mobile">Save</button>
           </div>
 
@@ -125,7 +125,7 @@
               <p>
                 Enter starting date:
                 </p>
-                <input type="date" class="startdate-box" />
+                <input type="string" class="startdate-box" />
                 <button class ="save-startdate">Save</button>
               </div>
 
@@ -133,7 +133,7 @@
                 <p>
                   Enter ending date :
                   </p>
-                  <input type="date" class="enddate-box" />
+                  <input type="string" class="enddate-box" />
                   <button class ="save-enddate">Save</button>
                 </div>
 
@@ -161,8 +161,83 @@
         </div>
   </div>
 
-  <a href="template.html"><button class= "generate-button btn btn-primary">Generate My Resume</button></a>
+  <button class= "generate-button btn btn-primary">Generate My Resume</button>
   </div>
+
+
+  <br />
+
+  <div class="container" id="resume">
+
+
+    <div class="row">
+      <div class="col-sm-3">
+        <img src="profile.jpg" class="profile-img" alt="profile-image"/>
+        </div>
+        <div class="col-sm-9 details-head">
+          <h3 class="name">Name</h3>
+          <h4 class="position">Position</h4>
+          <p class="objective">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-sm-3">
+          <ul class="list-unstyled">
+            <li>✉️</li>
+            <li class="email">
+              Email
+              </li>
+              <li>📞</li>
+              <li class="mobile">
+                Phone Num
+                </li>
+            <li>🏘️</li>
+            <li class="address">
+              Address
+              </li>
+
+              <li>📎</li>
+              <li class="linkedin">
+                Linkedin
+                </li>
+
+            </ul>
+
+          </div>
+          <div class="col-sm-9 work-experience">
+
+            <h3 class="work-experience-head">Work Experience</h3>
+            <h5 class= "work-experience-position">Position</h5>
+            <h5 class="work-experience-organisation">Organisation</h5>
+          <p>
+            <span class="work-experience-startdate"> Start Date</span> - <span class= "work-experience-enddate">End date</span>
+            </p>
+
+              <ul>
+                <li>
+                  <p class="work-about-1">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in rep
+
+                    </p>
+                  </li>
+
+                  <li>
+                    <p class="work-about-2">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in rep
+
+                      </p>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+    </div>
+
   </body>
   <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
 

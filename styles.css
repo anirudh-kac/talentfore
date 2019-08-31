@@ -1,8 +1,5 @@
 /* #03fc90
 #0ec2a1 */
-.green{
-  color:green;
-}
 .details-head{
   background-color: #0ec2a1 ;
   color:white;
@@ -14,6 +11,7 @@
 }
 .container{
   padding-top: 50px;
+  padding-top: 100px;
 }
 .profile-img{
   width:125px;
@@ -34,4 +32,9 @@
 .work-experience span{
   color: #0ec2a1;
   font-style: italic;
+}
+
+
+.gen-button{
+  text-align: center;
 }

@@ -3,84 +3,84 @@ var workOrganisation,workPosition,workStartdate,workEnddate,workAbout1,workAbout
 $("#resume").css("visibility", "hidden");
   $(".save-position").click(function(){
     position=$(".position-box").val();
-    $(".save-position").attr("class","green");
+    $(".save-position").attr("class","btn btn-success");
   });
 
   $(".save-name").click(function(){
       name=$(".name-box").val();
-      $(".save-name").attr("class","green");
+      $(".save-name").attr("class","btn btn-success");
   });
 
   $(".save-organisation").click(function(){
-      $(".save-organisation").attr("class","green");
+      $(".save-organisation").attr("class","btn btn-success");
     organisation=$(".organisation-box").val();
   });
 
 
   $(".save-objective").click(function(){
-      $(".save-objective").attr("class","green");
+      $(".save-objective").attr("class","btn btn-success");
     objective=$(".objective-box").val();
   });
 
   $(".save-image").click(function(){
-      $(".save-image").attr("class","green");
+      $(".save-image").attr("class","btn btn-success");
     url=$(".image-box").val();
   });
 
 
   $(".save-email").click(function(){
-      $(".save-email").attr("class","green");
+      $(".save-email").attr("class","btn btn-success");
     email=$(".email-box").val();
   });
 
   $(".save-mobile").click(function(){
-      $(".save-mobile").attr("class","green");
+      $(".save-mobile").attr("class","btn btn-success");
     mobile=$(".mobile-box").val();
   });
 
 
   $(".save-address").click(function(){
-    $(".save-address").attr("class","green");
+    $(".save-address").attr("class","btn btn-success");
     address=$(".address-box").val();
   });
 
   $(".save-linkedin").click(function(){
-      $(".save-linkedin").attr("class","green");
+      $(".save-linkedin").attr("class","btn btn-success");
     linkedin=$(".linkedin-box").val();
   });
 
 
   $(".save-work-position").click(function(){
-      $(".save-work-position").attr("class","green");
+      $(".save-work-position").attr("class","btn btn-success");
     workPosition=$(".work-position-box").val();
   });
 
 
   $(".save-work-organisation").click(function(){
-      $(".save-work-organisation").attr("class","green");
+      $(".save-work-organisation").attr("class","btn btn-success");
     workOrganisation=$(".work-organisation-box").val();
   });
 
 
 
   $(".save-startdate").click(function(){
-      $(".save-startdate").attr("class","green");
+      $(".save-startdate").attr("class","btn btn-success");
     workStartdate=$(".startdate-box").val();
   });
 
   $(".save-enddate").click(function(){
-      $(".save-enddate").attr("class","green");
+      $(".save-enddate").attr("class","btn btn-success");
     workEnddate=$(".enddate-box").val();
   });
 
 
   $(".save-about-work-1").click(function(){
-      $(".save-about-work-1").attr("class","green");
+      $(".save-about-work-1").attr("class","btn btn-success");
     workAbout1=$(".about-work-1-box").val();
   });
 
   $(".save-about-work-2").click(function(){
-      $(".save-about-work-2").attr("class","green");
+      $(".save-about-work-2").attr("class","btn btn-success");
     workAbout2=$(".about-work-2-box").val();
   });
 
